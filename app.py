@@ -22,13 +22,13 @@ bitterness = go.Bar(
     x=beers,
     y=ibu_values,
     name=label1,
-    marker={'color':darkgreen}
+    marker={'color': "darkgreen"}
 )
 alcohol = go.Bar(
     x=beers,
     y=abv_values,
     name=label2,
-    marker={'color':blue}
+    marker={'color': "blue"}
 )
 
 beer_data = [bitterness, alcohol]
